@@ -357,6 +357,7 @@
     background-color: black;
 
     display: inline-block;
+    -webkit-appearance: none;
    }
    .place-buy-btn:hover{
     opacity: 0.6;
@@ -513,9 +514,12 @@
     opacity: 0.6;
 }
 .map-section img{
-    width: 100%;
-    margin-bottom: 64px;
 
+    max-width: 100%;
+    margin-bottom: 64px;
+   
+
+   
 
 }
 
@@ -523,6 +527,7 @@
     #footer{
         padding: 0px 16px 112px;
         text-align: center;
+    
 
     }
 #footer .socials-list{
