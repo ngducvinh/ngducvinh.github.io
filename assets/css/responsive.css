@@ -1,14 +1,14 @@
 /*PC*/
-@media (min-width:1024px){
+@media (min-width: 64em){
 
 }
 /*table*/
-@media (min-width:740px) and (max-width:1023px){
+@media (min-width: 46.25em) and (max-width:63.9375em){
   
 
 }
 /*MObile and Ipad*/
-@media (max-width:1023px){
+@media (max-width:63.9375em){
     #nav .subnav a{
         padding: 5px 12px;
 
@@ -22,6 +22,7 @@
     }
     .contact-submit-btn{
         font-size: 17px;
+      
     }
     footer .socials-list {
         font-size: 48px;
@@ -41,7 +42,7 @@
     
 }
 /* Mobile*/
-@media (max-width:739px){
+@media (max-width:46.1875em ){
 .full-width{
 width: 100%;
 }

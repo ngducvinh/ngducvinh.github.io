@@ -165,7 +165,7 @@
 
       margin-top: 46px;
       padding-top:50%; /*height: 50vw*/
-      background: url('/assets/css/slider/slider1.jpg') top center/ cover no-repeat;
+      background: url('../img/slider1.jpg') top center/ cover no-repeat;
  }
 #slider .text-content{
     color: #fff;
@@ -186,6 +186,7 @@
 #slider .text-descriptition{
     font-size 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px black;
 
 }
     #content{
@@ -357,6 +358,7 @@
     background-color: black;
 
     display: inline-block;
+    appearance: none;
     -webkit-appearance: none;
    }
    .place-buy-btn:hover{
